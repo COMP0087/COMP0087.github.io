@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP0087 Slides and Reading Materials</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        @media (min-width: 768px) {
+            body {
+                padding: 40px;
+            }
+            
+            .container {
+                padding: 40px;
+            }
+        }
+        
+        h1 {
+            color: #8B0000;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+        
+        .intro-text {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.05em;
+        }
+        
+        .disclaimer {
+            color: #dc143c;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.05em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background-color: #f9f9f9;
+            display: block;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        thead, tbody, tr {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+        
+        @media (max-width: 767px) {
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 10px 8px;
+            }
+        }
+        
+        th {
+            background-color: #e8e8e8;
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #ddd;
+            font-size: 1.1em;
+        }
+        
+        td {
+            padding: 20px 15px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+        
+        .week-header {
+            color: #8B0000;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .date-cell {
+            color: #333;
+        }
+        
+        .description-cell {
+            min-width: 200px;
+        }
+        
+        .materials-cell {
+            min-width: 400px;
+        }
+        
+        .link {
+            color: #4682B4;
+            text-decoration: none;
+        }
+        
+        .link:hover {
+            text-decoration: underline;
+        }
+        
+        .event-out {
+            color: #228B22;
+            font-weight: bold;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .section-title {
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>COMP0087 Course Slides and Reading Material</h1>
+        
+<p class="intro-text">
+    For deadlines and guidelines on group projects, see <a href="https://comp0087.cs.ucl.ac.uk/" class="link">https://comp0087.cs.ucl.ac.uk/</a>.<br>
+    Updated lecture <strong>slides</strong> and <strong>suggested reading lists</strong> will be posted here shortly before each lecture.
+</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Suggested Readings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="date-cell">
+                        <div class="week-header">Week 1</div>
+                        <div>13 Jan 2026</div>
+                    </td>
+                    <td class="description-cell">
+                        Intro &amp; Tokenization<br>
+                        [<a href="slides/Week1-1.pdf" class="link">slides</a>]
+                    </td>
+                    <td class="materials-cell">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="date-cell">16 Jan 2026</td>
+                    <td class="description-cell">
+                        Word Embedding<br>
+                        [<a href="slides/Week1-2.pdf" class="link">slides</a>]
+                    </td>
+                    <td class="materials-cell">
+                    </td>
+                </tr>
+                
+                <!-- Add more rows as needed -->
+
+                <tr>
+                    <td class="date-cell">
+                        <div class="week-header">Week 2</div>
+                        <div>20 Jan 2026</div>
+                    </td>
+                    <td class="description-cell">
+                        ngram Language Models<br>
+                        [<a href="slides/3-ngram-lm.pdf" class="link">slides</a>]
+                    </td>
+                    <td class="materials-cell">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="date-cell">23 Jan 2026</td>
+                    <td class="description-cell">
+                        Neural Language Models<br>
+                        [<a href="slides/4-neural-lm.pdf" class="link">slides</a>]
+                    </td>
+                    <td class="materials-cell">
+                    </td>
+                </tr>
+                
+                <!-- Add more rows as needed -->
+                
+                <tr>
+                    <td class="date-cell">
+                        <div class="week-header">Week 3</div>
+                        <div>27 Jan 2026</div>
+                    </td>
+                    <td class="description-cell">
+                        Neural Language Models 2<br>
+                        [<a href="slides/5-neural-lm-contd.pdf" class="link">slides</a>]
+                    </td>
+                    <td class="materials-cell">
+                    </td>
+                </tr>
+
+                <tr>
+
+                                        <td class="date-cell">30 Jan 2026</td>
+                    <td class="description-cell">
+                        Prompting<br>
+                        [<a href="slides/6-prompting.pdf" class="link">slides</a>]
+                    </td>
+                    <td class="materials-cell">
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+
+                                <tr>
+                    <td class="date-cell">
+                        <div class="week-header">Week 4</div>
+                        <div>27 Jan 2026</div>
+                    </td>
+                    <td class="description-cell">
+                        Neural Language Models 2<br>
+                        [<a href="slides/5-neural-lm-contd.pdf" class="link">slides</a>]
+                    </td>
+                    <td class="materials-cell">
+                    </td>
+                </tr>
+
+                <tr>
+
+                                        <td class="date-cell">30 Jan 2026</td>
+                    <td class="description-cell">
+                        Prompting<br>
+                        [<a href="slides/6-prompting.pdf" class="link">slides</a>]
+                    </td>
+                    <td class="materials-cell">
+                    </td>
+                </tr>
+                <!-- Add more rows as needed -->
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
